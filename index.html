@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utility.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container flex bg-black">
+    <div class="left">
+      <div class="home bg-grey rounded m-1 p-1">
+        <img class="close" src="img/close.svg" alt="close">
+        <div class="logo"><img class="invert" src="img/logo.svg" alt="logo"></div>
+        <ul>
+          <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+          <li><img class="invert" src="img/search.svg" alt="search">Search</li>
+        </ul>
+      </div>
+      <div class="library bg-grey rounded m-1 p-1">
+        <div class="heading">
+          <img class="invert" src="img/playlist.svg" alt="playlist">
+          <h2>
+            Your Library
+          </h2>
+        </div>
+        <!-- Name song file as {songName - songArtists} -->
+        <div class="songList">
+          <ul>
+
+          </ul>
+        </div>
+        <div class="footer">
+          <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/privacy/"><span>Privacy Center</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="right bg-grey ">
+      <div class="header rounded">
+        <div class="hamburger-nav">
+          <img class="hamburger" src="img/hamburger.svg" alt="hamburger">
+          <div class="nav">
+            <svg width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7071 4.29289C16.0976 4.68342 16.0976 5.31658 15.7071 5.70711L9.41421 12L15.7071 18.2929C16.0976 18.6834 16.0976 19.3166 15.7071 19.7071C15.3166 20.0976 14.6834 20.0976 14.2929 19.7071L7.29289 12.7071C7.10536 12.5196 7 12.2652 7 12C7 11.7348 7.10536 11.4804 7.29289 11.2929L14.2929 4.29289C14.6834 3.90237 15.3166 3.90237 15.7071 4.29289Z" fill="#8d8c8c"></path> </g></svg>
+            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.29289 4.29289C8.68342 3.90237 9.31658 3.90237 9.70711 4.29289L16.7071 11.2929C17.0976 11.6834 17.0976 12.3166 16.7071 12.7071L9.70711 19.7071C9.31658 20.0976 8.68342 20.0976 8.29289 19.7071C7.90237 19.3166 7.90237 18.6834 8.29289 18.2929L14.5858 12L8.29289 5.70711C7.90237 5.31658 7.90237 4.68342 8.29289 4.29289Z" fill="#8d8c8c"></path> </g></svg>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="signupbtn">Sign up</button>
+          <button class="loginbtn">Log in</button>
+        </div>
+      </div>
+      <div class="spotifyPlaylists">
+        <h1>Spotify Playlists</h1>
+        <div class="cardContainer">
+          
+        </div>
+      </div>
+      <div class="playbar">
+        <div class="aboveSeekbar">
+          <div class="songinfo">
+            
+          </div>
+          <div class="songbuttons">
+            <img id="previousButton" src="img/prevsong.svg" alt="previous logo">
+            <img id="playButton" src="img/play.svg" alt="play logo">
+            <img id="nextButton" src="img/nextsong.svg" alt="next logo">
+          </div>
+          <div class="songVolumeTime">
+            <div class="songVolume">
+              <img src="img/volume.svg" alt="volume logo">
+            </div>
+            <div class="songtime">
+              
+            </div>
+          </div>
+        </div>
+        <div class="seekbar">
+          <div class="circle">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
